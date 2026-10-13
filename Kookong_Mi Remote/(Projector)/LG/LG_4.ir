@@ -1,0 +1,128 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Signal Source
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 18 E7 00 00
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 17 E8 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 52 AD 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 20 DF 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 22 DD 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 21 DE 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 28 D7 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 2C D3 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 2E D1 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 2A D5 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 53 AC 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 52 AD 00 00
+# 
+name: Zoom+
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 61 9E 00 00
+# 
+name: Zoom-
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 60 9F 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: FF 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: B4 4B 00 00
+# 
+name: Video
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 19 E6 00 00
+# 
+name: Computer
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 19 E6 00 00
+# 
+name: Screen Enlarging
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 7A 85 00 00
+# 
+name: Narrow Screen
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 7A 85 00 00
+# 
+name: Auto Sync
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 52 AD 00 00

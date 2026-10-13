@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5B 00 00 00
+# 
+name: TIMER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 3B 00 00 00
+# 
+name: Low
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6B 00 00 00
+# 
+name: Medium
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
+# 
+name: High
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9A 00 00 00
+# 
+name: Surf
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 4A 00 00 00

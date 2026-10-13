@@ -1,0 +1,62 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 12 00 00 00
+# 
+name: Hot and Cold
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 80 00 00 00
+# 
+name: Swing
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 21 00 00 00
+# 
+name: Timer+
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 15 00 00 00
+# 
+name: Timer-
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 01 00 00 00
+# 
+name: Wind Speed+
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 23 00 00 00
+# 
+name: Wind Speed-
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 24 00 00 00
+# 
+name: Low
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 80 00 00 00
+# 
+name: Medium
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: DE 00 00 00
+# 
+name: High
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 03 00 00 00

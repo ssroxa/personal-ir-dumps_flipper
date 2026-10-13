@@ -1,0 +1,170 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Signal Source
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 10 00 00 00
+# 
+name: Power On
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 02 00 00 00
+# 
+name: Power Off
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 2E 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 0E 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 0F 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 11 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 14 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 10 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 12 00 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 11 00 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 14 00 00 00
+# 
+name: On/Off
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 02 00 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 41 00 00 00
+# 
+name: Display Mode
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 05 00 00 00
+# 
+name: Video
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 1C 00 00 00
+# 
+name: 16:9
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 46 00 00 00
+# 
+name: 4:3
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 47 00 00 00
+# 
+name: Contrast
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 42 00 00 00
+# 
+name: HDMI1
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 16 00 00 00
+# 
+name: HDMI2
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 30 00 00 00
+# 
+name: LBX
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 48 00 00 00
+# 
+name: Original Scale
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 49 00 00 00
+# 
+name: Resync
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 12 00 00 00
+# 
+name: Lamp Mode
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 45 00 00 00
+# 
+name: Gamma
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 43 00 00 00
+# 
+name: 3D L/R
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 54 00 00 00
+# 
+name: VGA1
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 1B 00 00 00
+# 
+name: VGA2
+type: parsed
+protocol: NEC
+address: 32 00 00 00
+command: 1E 00 00 00

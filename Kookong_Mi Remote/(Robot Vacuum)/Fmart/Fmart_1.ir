@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Home/Charge
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 4F B0 00 00
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 00 FF 00 00
+# 
+name: Auto Cleaning
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 08 F7 00 00
+# 
+name: Fixed Cleaning Point
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 17 E8 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 0E F1 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 06 F9 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 03 FC 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 18 E7 00 00
+# 
+name: Eco
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 1B E4 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 0F F0 00 00
+# 
+name: Wi-Fi
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 01 FE 00 00
+# 
+name: UV Sterilization
+type: parsed
+protocol: NECext
+address: 85 7B 00 00
+command: 13 EC 00 00

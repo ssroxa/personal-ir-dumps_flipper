@@ -1,0 +1,44 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 98 6F 00 00
+command: 1A E5 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NECext
+address: 98 6F 00 00
+command: 03 FC 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NECext
+address: 98 6F 00 00
+command: 09 F6 00 00
+# 
+name: Reservation
+type: parsed
+protocol: NECext
+address: 98 6F 00 00
+command: 01 FE 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: 98 6F 00 00
+command: 01 FE 00 00
+# 
+name: Force
+type: parsed
+protocol: NECext
+address: 98 6F 00 00
+command: 08 F7 00 00
+# 
+name: Winter/Summer
+type: parsed
+protocol: NECext
+address: 98 6F 00 00
+command: 04 FB 00 00

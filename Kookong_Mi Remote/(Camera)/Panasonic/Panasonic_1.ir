@@ -1,0 +1,110 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Capture
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: D0 03 00 00
+# 
+name: On/Off
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: D0 03 00 00
+# 
+name: OK
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 01
+command: 80 01 00 00
+# 
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 01
+command: 60 01 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 20 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 30 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 50 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: 40 00 00 00
+# 
+name: Display
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 01
+command: F0 01 00 00
+# 
+name: Rewind
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 20 00 00 00
+# 
+name: Play
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: A0 00 00 00
+# 
+name: Fast Forward
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 30 00 00 00
+# 
+name: Record
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 80 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 00 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 00
+command: 60 00 00 00
+# 
+name: Reset
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 01
+command: 40 01 00 00
+# 
+name: In Sel
+type: parsed
+protocol: Kaseikyo
+address: 90 02 20 03
+command: 00 00 00 00
+# 
+name: SP/LP
+type: parsed
+protocol: Kaseikyo
+address: 91 02 20 00
+command: A0 00 00 00

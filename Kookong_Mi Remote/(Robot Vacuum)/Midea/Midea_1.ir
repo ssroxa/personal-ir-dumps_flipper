@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Home/Charge
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: EA 15 00 00
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: E5 1A 00 00
+# 
+name: Along the Edge Cleaning
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: EE 11 00 00
+# 
+name: Fixed Cleaning Point
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: E7 18 00 00
+# 
+name: Arch Cleaning
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: EC 13 00 00
+# 
+name: Start/Pause
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: E5 1A 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: E9 16 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: E1 1E 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: E3 1C 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: E6 19 00 00
+# 
+name: Suction+
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: F3 0C 00 00
+# 
+name: Suction-
+type: parsed
+protocol: NECext
+address: C3 AE 00 00
+command: F5 0A 00 00

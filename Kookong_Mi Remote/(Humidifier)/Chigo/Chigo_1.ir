@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: Volume
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+# 
+name: Anion
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 00 00 00 00
+# 
+name: Constant Moisture
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+# 
+name: SLEEP
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1F 00 00 00
+# 
+name: TIMER
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
+# 
+name: Sterilization
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0F 00 00 00
+# 
+name: Night Light
+type: parsed
+protocol: NECext
+address: 00 BF 00 00
+command: 44 BB 00 00

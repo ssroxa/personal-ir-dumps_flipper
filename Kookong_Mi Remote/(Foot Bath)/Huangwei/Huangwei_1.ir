@@ -1,0 +1,56 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 10 00 00 00
+command: 8D 00 00 00
+# 
+name: SPA
+type: parsed
+protocol: NEC
+address: 10 00 00 00
+command: 80 00 00 00
+# 
+name: TIMER
+type: parsed
+protocol: NEC
+address: 10 00 00 00
+command: 89 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 10 00 00 00
+command: 88 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 10 00 00 00
+command: 8C 00 00 00
+# 
+name: Surf
+type: parsed
+protocol: NEC
+address: 10 00 00 00
+command: 88 00 00 00
+# 
+name: Ozone
+type: parsed
+protocol: NEC
+address: 10 00 00 00
+command: 84 00 00 00
+# 
+name: Bubble
+type: parsed
+protocol: NEC
+address: 10 00 00 00
+command: 84 00 00 00
+# 
+name: Drainage
+type: parsed
+protocol: NEC
+address: 10 00 00 00
+command: 8C 00 00 00

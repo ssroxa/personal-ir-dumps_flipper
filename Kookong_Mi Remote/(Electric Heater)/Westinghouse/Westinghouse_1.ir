@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 88 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 85 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 90 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 84 00 00 00
+# 
+name: Anion
+type: parsed
+protocol: NEC
+address: 01 00 00 00
+command: 06 00 00 00
+# 
+name: Swing
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8D 00 00 00
+# 
+name: Warm Up
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 81 00 00 00
+# 
+name: Lantern
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 80 00 00 00

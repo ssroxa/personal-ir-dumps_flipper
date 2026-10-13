@@ -1,0 +1,44 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 45 00 00 00
+# 
+name: SPA
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 07 00 00 00
+# 
+name: Low
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 47 00 00 00
+# 
+name: Medium
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 09 00 00 00
+# 
+name: High
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5E 00 00 00
+# 
+name: Bubble
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 9208 4549 573 559 572 559 571 559 572 559 572 559 571 559 572 559 572 560 571 1690 572 1690 573 1690 572 1690 571 1691 571 1663 573 1690 572 1690 572 1690 572 1690 572 1691 571 559 571 559 572 558 572 559 572 558 572 560 571 558 573 560 571 1691 571 1690 572 1691 571 1690 572 1664 571 39943 9207 2263 571
+# 
+name: Red Light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0C 00 00 00

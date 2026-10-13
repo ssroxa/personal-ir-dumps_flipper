@@ -1,0 +1,44 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: B8 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: B3 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: B1 00 00 00
+# 
+name: Reservation
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: B5 00 00 00
+# 
+name: Appointment Bath
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: B5 00 00 00
+# 
+name: Speed Semi-Bile
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: B7 00 00 00
+# 
+name: Warm Water
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: B4 00 00 00

@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Home/Charge
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 11 EE 00 00
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 44 BB 00 00
+# 
+name: Auto Cleaning
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 44 BB 00 00
+# 
+name: Along the Edge Cleaning
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 99 66 00 00
+# 
+name: Fixed Cleaning Point
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: EE 11 00 00
+# 
+name: Start/Pause
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 44 BB 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: AA 55 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 66 99 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: CC 33 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 40 55 00 00
+command: 22 DD 00 00
+# 
+name: Reservation
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 8917 4460 541 580 541 580 540 554 567 553 541 580 541 580 540 1675 541 555 566 554 541 1701 541 580 541 1676 540 554 541 1702 540 580 540 1676 540 554 541 581 540 580 541 579 541 554 567 555 540 580 541 580 541 1700 542 1675 541 1702 540 1702 540 1676 540 1701 541 1702 540 1677 539 1675 541 580 541 579 542 553 568 554 541 580 540 1703 539 1676 567 1677 539 1702 540 580 540 555 566 1676 539 581 540 580 541 1675 567
+# 
+name: Timer
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 8944 4460 541 580 540 554 567 554 566 554 542 552 542 581 540 1675 567 554 567 553 542 1701 541 554 567 1675 567 554 540 1701 542 555 565 1675 568 554 540 581 540 580 541 552 568 553 568 553 568 553 541 579 541 1676 566 1675 567 1675 541 1676 566 1675 568 1675 540 1676 566 1675 567 1676 541 580 540 554 567 553 568 553 541 554 541 1702 540 1676 567 1675 540 1702 540 554 567 553 568 1674 542 580 541 580 541 1675 567

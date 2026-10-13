@@ -1,0 +1,200 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Turn on
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 80 7F 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 81 7E 00 00
+# 
+name: Turn off
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 82 7D 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 85 7A 00 00
+# 
+name: OPEN1
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 84 7B 00 00
+# 
+name: OPEN2
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 88 77 00 00
+# 
+name: OPEN3
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 8C 73 00 00
+# 
+name: OPEN4
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 90 6F 00 00
+# 
+name: OPEN5
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 94 6B 00 00
+# 
+name: OPEN6
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 98 67 00 00
+# 
+name: OPEN7
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 9C 63 00 00
+# 
+name: OPEN8
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: A0 5F 00 00
+# 
+name: OPEN9
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: A4 5B 00 00
+# 
+name: Open All
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 80 7F 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 8D 72 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 91 6E 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 95 6A 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 99 66 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 9D 62 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: A1 5E 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: A5 5A 00 00
+# 
+name: Stop All
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 81 7E 00 00
+# 
+name: Close
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 86 79 00 00
+# 
+name: Close
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 8A 75 00 00
+# 
+name: Close
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 8E 71 00 00
+# 
+name: Close
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 92 6D 00 00
+# 
+name: Close
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 96 69 00 00
+# 
+name: Close
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 9A 65 00 00
+# 
+name: Close
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 9E 61 00 00
+# 
+name: Close
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: A2 5D 00 00
+# 
+name: Close
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: A6 59 00 00
+# 
+name: Close All
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 82 7D 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 80 6A 00 00
+command: 89 76 00 00

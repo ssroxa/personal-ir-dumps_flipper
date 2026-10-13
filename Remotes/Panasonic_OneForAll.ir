@@ -1,0 +1,302 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: raw
+frequency: 38000
+duty_cycle: 0.330000
+data: 185 27308 3433 1771 416 456 415 1301 416 455 417 456 415 457 414 455 417 456 415 456 415 456 416 456 415 456 416 455 417 456 415 1301 416 455 416 456 415 456 416 456 415 455 416 456 416 456 415 456 416 456 416 1300 417 456 415 456 416 456 416 457 414 456 416 455 416 456 416 457 414 1302 416 454 417 1301 415 1302 416 1301 416 1302 415 456 415 456 416 1301 416 455 416 1301 416 1301 416 1302 415 1300 417 455 417 1301 416 73914 3433 1772 415 456 415 1302 415 455 416 454 417 456 416 456 415 455 416 456 416 455 416 456 415 455 417 455 416 456 415 1301 416 455 416 456 416 455 417 455 416 456 416 456 416 456 416 455 416 455 416 1302 415 456 415 456 416 455 417 455 416 456 415 456 415 456 416 455 416 1301 416 455 416 1301 416 1302 415 1302 415 1301 416 455 416 456 415 1302 415 456 416 1301 416 1302 415 1301 416 1301 416 455 416 1301 416 73914 3433 1771 416 455 416 1301 416 456 415 456 416 456 416 456 415 455 416 456 416 455 416 456 415 456 415 456 416 455 416 1301 416 456 416 455 416 456 416 456 416 455 416 456 415 429 416 455 417 456 415 1301 416 456 416 455 416 456 415 457 414 455 416 456 416 455 416 456 416 1301 416 456 415 1301 416 1301 416 1301 416 1301 416 456 416 456 415 1302 415 456 415 1302 416 1301 415 1301 416 1302 415 455 416 1301 416 74021 3432 1771 416 455 416 1302 416 456 416 456 415 456 415 456 416 455 417 455 416 456 415 456 416 456 415 456 416 456 415 1302 415 455 416 456 416 457 415 456 415 457 415 455 417 456 416 455 416 456 416 1301 416 456 415 455 416 455 417 455 417 455 416 455 417 454 417 455 416 1302 415 455 416 1302 415 1302 415 1302 414 1302 416 455 416 456 415 1302 416 455 416 1301 416 1301 415 1301 416 1301 416 456 415 1301 416 85284 3459 1747 415 456 416 1301 416 456 415 455 416 456 416 455 416 456 416 456 415 456 415 456 416 456 415 455 416 456 415 1302 415 456 415 456 416 455 416 456 415 456 416 455 416 455 416 456 416 455 416 1301 416 456 415 455 416 456 415 457 415 455 416 455 416 455 417 455 417 1301 416 457 415 1300 417 1301 416 1301 416 1302 416 456 415 456 415 1301 415 456 416 1301 416 1302 416 1301 416 1301 416 456 416 1301 416 73914 3433 1772 415 455 416 1301 416 456 415 456 416 456 415 455 417 457 414 454 418 455 416 456 416 455 416 456 415 456 416 1301 416 455 416 457 414 455 416 456 415 456 416 455 417 456 415 457 415 456 416 1301 416 455 417 456 415 457 415 456 415 456 415 456 415 456 415 457 414 1301 416 456 416 1301 416 1301 416 1301 416 1301 416 456 415 455 416 1302 415 455 416 1301 416 1300 417 1301 416 1301 416 456 415 1301 416 73913 3434 1772 415 456 415 1301 416 456 415 455 416 455 417 455 417 456 415 456 415 456 416 456 416 456 416 455 416 456 415 1301 416 455 417 456 415 456 416 455 416 456 416 456 416 429 416 455 416 456 416 1301 416 456 416 455 416 456 415 456 415 456 416 456 415 456 416 456 415 1302 415 457 414 1302 415 1300 417 1302 415 1302 415 455 416 455 417 1301 416 456 415 1301 416 1301 416 1301 416 1301 416 456 416 1301 416 74019 3434 1771 416 456 415 1301 416 455 417 456 415 456 416 455 416 456 416 456 415 456 416 455 416 455 416 456 416 457 415 1301 416 457 415 456 415 455 417 456 415 455 416 456 416 455 416 456 416 455 417 1302 415 455 416 456 416 455 417 455 416 456 416 455 416 456 415 456 416 1300 417 456 416 1301 416 1301 416 1301 416 1301 416 457 415 454 417 1301 416 456 415 1302 416 1300 417 1301 416 1301 416 455 416 1302 415
+# 
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 20 03 00 00
+# 
+name: Vol up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 02 00 00
+# 
+name: Vol down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 02 00 00
+# 
+name: Ch next
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 03 00 00
+# 
+name: Ch prev
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 03 00 00
+# 
+name: OK
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 90 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: A0 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: B0 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: E0 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: F0 00 00 00
+# 
+name: Exit
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 03
+command: 30 01 00 00
+# 
+name: INPUT TV
+type: parsed
+protocol: Kaseikyo
+address: 82 02 20 00
+command: 00 03 00 00
+# 
+name: INPUT AV
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 00 00 00
+# 
+name: 3D
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 03 00 00
+# 
+name: MENU
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 20 01 00 00
+# 
+name: REC
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 50 00 00 00
+# 
+name: INFO
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 90 03 00 00
+# 
+name: Home Tools
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 03
+command: F0 02 00 00
+# 
+name: Apps Link
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 10 03 00 00
+# 
+name: Guide
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 00 00 00
+# 
+name: Option
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 02
+command: 70 02 00 00
+# 
+name: Enter
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 03
+command: 40 01 00 00
+# 
+name: Ch Random
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 70 03 00 00
+# 
+name: Red
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 00 03 00 00
+# 
+name: Green
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 10 03 00 00
+# 
+name: Yellow
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 20 03 00 00
+# 
+name: Blue
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 01
+command: 30 03 00 00
+# 
+name: STTL
+type: parsed
+protocol: Kaseikyo
+address: 81 02 20 00
+command: 50 00 00 00
+# 
+name: HOLD
+type: parsed
+protocol: Kaseikyo
+address: 81 02 20 00
+command: 90 00 00 00
+# 
+name: TEXT
+type: parsed
+protocol: Kaseikyo
+address: 81 02 20 00
+command: 30 00 00 00
+# 
+name: ASPECT
+type: parsed
+protocol: Kaseikyo
+address: 84 02 20 03
+command: E0 01 00 00
+# 
+name: Media Play
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 00 00 00 00
+# 
+name: Media Pause
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 10 00 00 00
+# 
+name: Media Back
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 40 00 00 00
+# 
+name: Media Next
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 30 00 00 00
+# 
+name: Media Stop
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 20 00 00 00
+# 
+name: Media Rec
+type: parsed
+protocol: Kaseikyo
+address: 89 02 20 03
+command: 50 00 00 00
+# 
+name: Media Up
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 03 00 00
+# 
+name: Media Down
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 03 00 00
+# 
+name: 0
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 90 01 00 00
+# 
+name: 1
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 00 01 00 00
+# 
+name: 2
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 10 01 00 00
+# 
+name: 3
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 20 01 00 00
+# 
+name: 4
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 30 01 00 00
+# 
+name: 5
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 40 01 00 00
+# 
+name: 6
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 50 01 00 00
+# 
+name: 7
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 60 01 00 00
+# 
+name: 8
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 70 01 00 00
+# 
+name: 9
+type: parsed
+protocol: Kaseikyo
+address: 80 02 20 00
+command: 80 01 00 00

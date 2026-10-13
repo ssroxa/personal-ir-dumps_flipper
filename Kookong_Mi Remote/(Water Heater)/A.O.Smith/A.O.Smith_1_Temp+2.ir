@@ -1,0 +1,56 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 00 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 73 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 71 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 84 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 86 00 00 00
+# 
+name: Functions
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 75 00 00 00
+# 
+name: Heating
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 72 00 00 00
+# 
+name: +
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 71 00 00 00
+# 
+name: -
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 73 00 00 00

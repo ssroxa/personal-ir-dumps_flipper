@@ -1,0 +1,26 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 84 00 00 00
+# 
+name: Thermostat
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 85 00 00 00
+# 
+name: Bubble
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CC 00 00 00
+# 
+name: Heating Mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 85 00 00 00

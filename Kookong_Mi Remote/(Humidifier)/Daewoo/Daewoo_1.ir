@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 92 00 00 00
+# 
+name: STALLS
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 89 00 00 00
+# 
+name: Anion
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 83 00 00 00
+# 
+name: Constant Moisture
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 87 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 81 00 00 00
+# 
+name: Light
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 9E 00 00 00

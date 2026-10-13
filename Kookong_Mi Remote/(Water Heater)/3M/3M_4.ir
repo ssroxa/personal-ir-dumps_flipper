@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 00 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 03 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 01 00 00 00
+# 
+name: Reservation
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 14 00 00 00
+# 
+name: TIMER
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 14 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 06 00 00 00
+# 
+name: Electricity Display
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 16 00 00 00
+# 
+name: Peak and Valley
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 05 00 00 00
+# 
+name: AEC
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 07 00 00 00
+# 
+name: Heating Select
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 02 00 00 00
+# 
+name: Heating
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 15 00 00 00
+# 
+name: Cool Down
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 03 00 00 00
+# 
+name: Warm Up
+type: parsed
+protocol: NEC
+address: 58 00 00 00
+command: 01 00 00 00

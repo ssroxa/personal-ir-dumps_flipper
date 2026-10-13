@@ -1,0 +1,80 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Home/Charge
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0A F5 00 00
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0D F2 00 00
+# 
+name: Fixed Cleaning Point
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 16 E9 00 00
+# 
+name: Start/Pause
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0D F2 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0B F4 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 0E F1 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 10 EF 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 11 EE 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 40 BF 00 00
+# 
+name: MAX Mode
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: BF 40 00 00
+# 
+name: Suction+
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 15 EA 00 00
+# 
+name: Suction-
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 1C E3 00 00
+# 
+name: Scrub
+type: parsed
+protocol: NECext
+address: 40 40 00 00
+command: 37 C8 00 00

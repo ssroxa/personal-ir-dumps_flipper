@@ -1,0 +1,68 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 88 02 20 00
+command: D4 03 00 00
+# 
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: 88 02 20 01
+command: A4 03 00 00
+# 
+name: OK
+type: parsed
+protocol: Kaseikyo
+address: 88 02 20 01
+command: 24 03 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: 88 02 20 01
+command: A4 01 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: 88 02 20 01
+command: B4 01 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: 88 02 20 01
+command: C4 01 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: 88 02 20 01
+command: D4 01 00 00
+# 
+name: Vol+
+type: parsed
+protocol: Kaseikyo
+address: 88 02 20 00
+command: 04 02 00 00
+# 
+name: Vol-
+type: parsed
+protocol: Kaseikyo
+address: 88 02 20 00
+command: 14 02 00 00
+# 
+name: Zoom+
+type: parsed
+protocol: Kaseikyo
+address: 88 02 20 02
+command: 04 01 00 00
+# 
+name: Zoom-
+type: parsed
+protocol: Kaseikyo
+address: 88 02 20 02
+command: 64 00 00 00

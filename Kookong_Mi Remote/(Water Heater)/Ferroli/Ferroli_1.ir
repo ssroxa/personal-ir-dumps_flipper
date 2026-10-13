@@ -1,0 +1,56 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 8F 00 00
+command: 90 6F 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NECext
+address: 00 8F 00 00
+command: 95 6A 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NECext
+address: 00 8F 00 00
+command: 91 6E 00 00
+# 
+name: Reservation
+type: parsed
+protocol: NECext
+address: 00 8F 00 00
+command: 9B 64 00 00
+# 
+name: Speed Hot All Gallbladder
+type: parsed
+protocol: NECext
+address: 00 8F 00 00
+command: 99 66 00 00
+# 
+name: Speed Semi-Bile
+type: parsed
+protocol: NECext
+address: 00 8F 00 00
+command: 98 67 00 00
+# 
+name: Time
+type: parsed
+protocol: NECext
+address: 00 8F 00 00
+command: 97 68 00 00
+# 
+name: HWM
+type: parsed
+protocol: NECext
+address: 00 8F 00 00
+command: 94 6B 00 00
+# 
+name: Low Energy Consumption
+type: parsed
+protocol: NECext
+address: 00 8F 00 00
+command: 92 6D 00 00

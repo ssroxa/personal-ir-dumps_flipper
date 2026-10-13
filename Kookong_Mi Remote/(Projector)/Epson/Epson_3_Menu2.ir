@@ -1,0 +1,146 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Signal Source
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8C 73 00 00
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 90 6F 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 93 6C 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9A 65 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 84 7B 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 85 7A 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B0 4F 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B2 4D 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B3 4C 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: B1 4E 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 98 67 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 99 66 00 00
+# 
+name: Lock
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 92 6D 00 00
+# 
+name: Zoom+
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 88 77 00 00
+# 
+name: Zoom-
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 89 76 00 00
+# 
+name: Page Up
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 86 79 00 00
+# 
+name: Page Down
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 87 78 00 00
+# 
+name: Aspect Ratio
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8A 75 00 00
+# 
+name: Computer
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 94 6B 00 00
+# 
+name: Auto Sync
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 9E 61 00 00
+# 
+name: Color Mode
+type: parsed
+protocol: NECext
+address: 83 55 00 00
+command: 8F 70 00 00
+# 
+name: AV Mute
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 9246 4625 574 1724 575 1751 547 587 574 588 574 589 546 588 575 588 574 1724 574 1752 546 587 575 1753 546 588 574 1751 547 587 575 1751 547 589 573 1751 548 1751 574 588 547 588 574 1751 547 588 575 588 574 1724 574 588 575 588 548 1750 574 1726 572 588 574 1725 574 1750 548 588 574
+# 
+name: Comp/Easy MP
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 9221 4649 574 1724 574 1751 547 588 575 587 574 588 548 588 575 589 573 1724 574 1751 548 587 575 1751 547 588 574 1751 547 587 576 1751 547 588 574 1750 547 589 573 1751 548 1751 574 1725 573 588 574 587 548 1751 573 589 547 1750 575 587 548 588 574 587 574 1725 574 1751 547 588 574
+# 
+name: S-Video/Video
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 9223 4650 573 1751 548 1750 574 588 548 588 573 588 575 587 548 589 573 1751 547 1752 573 587 548 1751 574 587 549 1751 574 587 548 1751 574 589 547 588 574 588 549 1749 574 1750 548 1750 575 588 547 587 576 1751 547 1751 574 1725 573 588 574 589 547 588 574 1750 548 1751 574 588 548

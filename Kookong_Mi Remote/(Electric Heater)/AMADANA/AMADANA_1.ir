@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 88 00 00 00
+# 
+name: Temperature
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 80 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8C 00 00 00
+# 
+name: Moisturizing
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 85 00 00 00
+# 
+name: Child Lock
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 84 00 00 00
+# 
+name: Stalls
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 90 00 00 00
+# 
+name: +
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8D 00 00 00
+# 
+name: -
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 81 00 00 00

@@ -1,0 +1,230 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Signal Source
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: EF 10 00 00
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: AD 52 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 09 F6 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 43 BC 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 28 D7 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 44 BB 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 40 BF 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 41 BE 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 07 F8 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 06 F9 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 02 FD 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 03 FC 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 5B A4 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 8F 70 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: B0 4F 00 00
+# 
+name: Fast Forward
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 8E 71 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: B1 4E 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: BA 45 00 00
+# 
+name: Page Up
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 00 FF 00 00
+# 
+name: Page Down
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 01 FE 00 00
+# 
+name: Red
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 72 8D 00 00
+# 
+name: Green
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 71 8E 00 00
+# 
+name: Blue
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 61 9E 00 00
+# 
+name: Yellow
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 63 9C 00 00
+# 
+name: 3D
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: DC 23 00 00
+# 
+name: Video
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: EF 10 00 00
+# 
+name: Media
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 7C 83 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 45 BA 00 00
+# 
+name: USB
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 7C 83 00 00
+# 
+name: Help
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 81 7E 00 00
+# 
+name: Auto Adjust
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 92 6D 00 00
+# 
+name: Fixed Display
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: BC 43 00 00
+# 
+name: L/R
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 72 8D 00 00
+# 
+name: Correction
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: A4 5B 00 00
+# 
+name: Image Ratio
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 79 86 00 00
+# 
+name: Occlude
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: 84 7B 00 00
+# 
+name: Keystone+
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: A4 5B 00 00
+# 
+name: Keystone-
+type: parsed
+protocol: NECext
+address: 04 0F 00 00
+command: A5 5A 00 00

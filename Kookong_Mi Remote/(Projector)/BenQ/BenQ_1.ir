@@ -1,0 +1,218 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power Off
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 4F B0 00 00
+# 
+name: Power On
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 4E B1 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 14 EB 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0F F0 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 15 EA 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0B F4 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0C F3 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0D F2 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 0E F1 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 82 7D 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 83 7C 00 00
+# 
+name: On/Off
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 4F B0 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 16 E9 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: A4 5B 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: A9 56 00 00
+# 
+name: Fast Forward
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: A5 5A 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: AA 55 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: A8 57 00 00
+# 
+name: Previous
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: A6 59 00 00
+# 
+name: Next
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: A7 58 00 00
+# 
+name: Capture Mode
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 10 EF 00 00
+# 
+name: Sound Mode
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 3D C2 00 00
+# 
+name: 3D
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 9C 63 00 00
+# 
+name: Color Temp
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 5F A0 00 00
+# 
+name: Sharp
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 7E 81 00 00
+# 
+name: Contrast
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 11 EE 00 00
+# 
+name: Eco Blank
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 07 F8 00 00
+# 
+name: HDR
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 3C C3 00 00
+# 
+name: Cinema Master
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: BE 41 00 00
+# 
+name: Light Mode
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 30 CF 00 00
+# 
+name: Dynamic Iris
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 7C 83 00 00
+# 
+name: Detail Enhancer
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 5A A5 00 00
+# 
+name: Lumi Expert
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 3B C4 00 00
+# 
+name: Keystone
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 2A D5 00 00
+# 
+name: Gamma
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 5E A1 00 00
+# 
+name: Color Managment
+type: parsed
+protocol: NECext
+address: 00 30 00 00
+command: 5B A4 00 00

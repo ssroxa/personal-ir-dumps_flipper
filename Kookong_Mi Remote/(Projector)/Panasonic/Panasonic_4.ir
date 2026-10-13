@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Signal Source
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 00
+command: 58 00 00 00
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 00
+command: D8 03 00 00
+# 
+name: Mute
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 00
+command: 28 03 00 00
+# 
+name: Menu
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 01
+command: 28 01 00 00
+# 
+name: OK
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 00
+command: C8 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 01
+command: A8 00 00 00
+# 
+name: Down
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 01
+command: B8 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 01
+command: E8 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 01
+command: F8 00 00 00
+# 
+name: Vol+
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 00
+command: 08 02 00 00
+# 
+name: Vol-
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 00
+command: 18 02 00 00
+# 
+name: Video
+type: parsed
+protocol: Kaseikyo
+address: 00 02 20 00
+command: 58 00 00 00

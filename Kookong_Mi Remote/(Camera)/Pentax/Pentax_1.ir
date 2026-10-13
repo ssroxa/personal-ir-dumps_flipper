@@ -1,0 +1,20 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Capture
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 12894 2987 996 1012 995 1011 997 1012 995 1010 997 1038 997 1011 996
+# 
+name: On/Off
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 12869 3010 997 1011 997 1010 973 1035 973 1035 973 1062 972 1036 972
+# 
+name: D_KEY
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 12764 3037 946 1062 946 1061 971 1038 946 1061 947 1061 946 3044 946

@@ -1,0 +1,20 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Capture
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 508 7227 509
+# 
+name: On/Off
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 509 7226 510
+# 
+name: Delay
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 509 5329 511

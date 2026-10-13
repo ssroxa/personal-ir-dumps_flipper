@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 21 FF 00 00
+command: 95 6A 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NECext
+address: 21 FF 00 00
+command: 81 7E 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NECext
+address: 21 FF 00 00
+command: 80 7F 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 21 FF 00 00
+command: C0 3F 00 00
+# 
+name: Intelligence
+type: parsed
+protocol: NECext
+address: 21 FF 00 00
+command: 82 7D 00 00
+# 
+name: Force
+type: parsed
+protocol: NECext
+address: 21 FF 00 00
+command: 94 6B 00 00
+# 
+name: Water Amount
+type: parsed
+protocol: NECext
+address: 21 FF 00 00
+command: 83 7C 00 00
+# 
+name: Temperature
+type: parsed
+protocol: NECext
+address: 21 FF 00 00
+command: 96 69 00 00

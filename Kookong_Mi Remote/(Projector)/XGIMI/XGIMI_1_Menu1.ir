@@ -1,0 +1,134 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Signal Source
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 80 00 00 00
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 4D 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 43 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 45 00 00 00
+# 
+name: Home
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 1A 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 42 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 0D 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 0B 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 0E 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 10 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 11 00 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 18 00 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 17 00 00 00
+# 
+name: Voice
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 60 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 62 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 62 00 00 00
+# 
+name: 3D
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 49 00 00 00
+# 
+name: Settings
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 48 00 00 00
+# 
+name: Auto Focus
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 5A 00 00 00
+# 
+name: Assistant
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 1E 00 00 00
+# 
+name: Focus+
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 58 00 00 00
+# 
+name: Focus-
+type: parsed
+protocol: NEC
+address: 21 00 00 00
+command: 56 00 00 00

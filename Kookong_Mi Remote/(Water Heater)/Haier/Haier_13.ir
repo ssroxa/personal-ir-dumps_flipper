@@ -1,0 +1,38 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: B6 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: 28 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: 4C 00 00 00
+# 
+name: Reservation
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: 67 00 00 00
+# 
+name: Mode
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: 3D 00 00 00
+# 
+name: Appointment Bath
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: 67 00 00 00

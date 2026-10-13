@@ -1,0 +1,98 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Capture
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 63 00 00 00
+# 
+name: On/Off
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 63 00 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: F1 00 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 4D 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: F0 00 00 00
+# 
+name: Rewind
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 21 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 0B 00 00 00
+# 
+name: Fast Forward
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 22 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 0B 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 60 00 00 00
+# 
+name: Previous
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 80 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 51 00 00 00
+# 
+name: W
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 61 00 00 00
+# 
+name: Aid Light
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 62 00 00 00
+# 
+name: Video Record
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 6F 00 00 00
+# 
+name: Delete
+type: parsed
+protocol: NEC
+address: 45 00 00 00
+command: 84 00 00 00

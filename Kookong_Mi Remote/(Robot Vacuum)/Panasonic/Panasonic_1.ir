@@ -1,0 +1,68 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Home/Charge
+type: parsed
+protocol: Kaseikyo
+address: 03 02 20 00
+command: 90 00 00 00
+# 
+name: Power
+type: parsed
+protocol: Kaseikyo
+address: 03 02 20 00
+command: 10 00 00 00
+# 
+name: Along the Edge Cleaning
+type: parsed
+protocol: Kaseikyo
+address: 03 02 20 00
+command: 20 00 00 00
+# 
+name: Arch Cleaning
+type: parsed
+protocol: Kaseikyo
+address: 03 02 20 00
+command: 50 00 00 00
+# 
+name: Spiral Cleaning
+type: parsed
+protocol: Kaseikyo
+address: 03 02 20 00
+command: 40 00 00 00
+# 
+name: Start/Pause
+type: parsed
+protocol: Kaseikyo
+address: 03 02 20 00
+command: 10 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Kaseikyo
+address: 03 02 20 00
+command: 70 00 00 00
+# 
+name: Left
+type: parsed
+protocol: Kaseikyo
+address: 03 02 20 00
+command: 60 00 00 00
+# 
+name: Right
+type: parsed
+protocol: Kaseikyo
+address: 03 02 20 00
+command: 80 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: Kaseikyo
+address: 03 02 20 00
+command: 10 00 00 00
+# 
+name: Silent Cleaning
+type: parsed
+protocol: Kaseikyo
+address: 03 02 20 00
+command: 30 00 00 00

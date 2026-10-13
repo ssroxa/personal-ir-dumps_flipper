@@ -1,0 +1,146 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Signal Source
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: EF 00 00 00
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: AD 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 09 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 43 00 00 00
+# 
+name: Back
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 28 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 44 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 40 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 41 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 07 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 06 00 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 02 00 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 03 00 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 5C 00 00 00
+# 
+name: Sleep
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 0E 00 00 00
+# 
+name: Stop
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: BC 00 00 00
+# 
+name: 3D
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: DC 00 00 00
+# 
+name: Mark
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 1E 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 45 00 00 00
+# 
+name: USB
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 7C 00 00 00
+# 
+name: Scale
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 79 00 00 00
+# 
+name: Keystone
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: A4 00 00 00
+# 
+name: Auto Sync
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 92 00 00 00
+# 
+name: Black Screen
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 84 00 00 00
+# 
+name: P-Timer
+type: parsed
+protocol: NEC
+address: 04 00 00 00
+command: 26 00 00 00

@@ -1,0 +1,68 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Capture
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 81 7E 00 00
+# 
+name: On/Off
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 80 7F 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 83 7C 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 84 7B 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 86 79 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 85 7A 00 00
+# 
+name: Settings
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 88 77 00 00
+# 
+name: Options
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 87 78 00 00
+# 
+name: Continuous Left
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 8A 75 00 00
+# 
+name: Continuous Right
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 89 76 00 00
+# 
+name: Photo
+type: parsed
+protocol: NECext
+address: 31 C0 00 00
+command: 82 7D 00 00

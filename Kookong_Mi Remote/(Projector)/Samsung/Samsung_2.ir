@@ -1,0 +1,122 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Signal Source
+type: parsed
+protocol: Pioneer
+address: 30 00 00 00
+command: 89 00 00 00
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 00 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 0B 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: Pioneer
+address: 30 00 00 00
+command: 1C 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 0F 00 00 00
+# 
+name: Up
+type: parsed
+protocol: Pioneer
+address: 30 00 00 00
+command: 8C 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 8D 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 1E 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 1D 00 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 09 00 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 0A 00 00 00
+# 
+name: Lock
+type: parsed
+protocol: Pioneer
+address: 30 00 00 00
+command: 43 00 00 00
+# 
+name: Zoom+
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 47 00 00 00
+# 
+name: Zoom-
+type: parsed
+protocol: Pioneer
+address: 30 00 00 00
+command: 46 00 00 00
+# 
+name: Video
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 0C 00 00 00
+# 
+name: Computer
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 07 00 00 00
+# 
+name: Normal
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 1F 00 00 00
+# 
+name: Focus
+type: parsed
+protocol: Pioneer
+address: 30 00 00 00
+command: 87 00 00 00
+# 
+name: Focus+
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 59 00 00 00
+# 
+name: Focus-
+type: parsed
+protocol: NEC
+address: 30 00 00 00
+command: 5A 00 00 00

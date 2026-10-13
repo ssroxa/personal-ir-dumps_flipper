@@ -1,0 +1,182 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Signal Source
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 8C 73 00 00
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 87 78 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 84 7B 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 4C B3 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 4D B2 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: B1 4E 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: B2 4D 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 4E B1 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 4F B0 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 63 9C 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 64 9B 00 00
+# 
+name: Lock
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 8E 71 00 00
+# 
+name: Zoom
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 8B 74 00 00
+# 
+name: Brightness
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 0D F2 00 00
+# 
+name: Play
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 4D B2 00 00
+# 
+name: Stop
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 4C B3 00 00
+# 
+name: Pause
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 4D B2 00 00
+# 
+name: Video
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: A8 57 00 00
+# 
+name: Media
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: A7 58 00 00
+# 
+name: Aspect Ratio
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 60 9F 00 00
+# 
+name: USB
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 5F A0 00 00
+# 
+name: Media Select
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: A7 58 00 00
+# 
+name: HDMI
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 4A B5 00 00
+# 
+name: VGA
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 65 9A 00 00
+# 
+name: HDMI1
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: A9 56 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 60 9F 00 00
+# 
+name: Resync
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 8D 72 00 00
+# 
+name: Hide
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 8F 70 00 00
+# 
+name: E_KEY
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 80 7F 00 00
+# 
+name: S-Video
+type: parsed
+protocol: NECext
+address: 08 13 00 00
+command: 68 97 00 00

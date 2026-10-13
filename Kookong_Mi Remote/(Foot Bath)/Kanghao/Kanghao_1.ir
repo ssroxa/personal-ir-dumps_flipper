@@ -1,0 +1,56 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 84 00 00 00
+# 
+name: SPA
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: CC 00 00 00
+# 
+name: TIMER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: C6 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 85 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8F 00 00 00
+# 
+name: Surf
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8C 00 00 00
+# 
+name: Red Light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 86 00 00 00
+# 
+name: Gas Wave
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 86 00 00 00
+# 
+name: Heating Mode
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 8C 00 00 00

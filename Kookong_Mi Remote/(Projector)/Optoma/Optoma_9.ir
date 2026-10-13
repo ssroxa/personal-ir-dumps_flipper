@@ -1,0 +1,104 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Signal Source
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 04 FB 00 00
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 02 FD 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0F F0 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 11 EE 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 17 E8 00 00
+# 
+name: Up
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 1183 1245 600 615 600 615 600 615 600 615 600 614 601 614 601 614 601 615 600 615 600 615 600 615 600 614 601 615 600 615 1185
+# 
+name: Down
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 1184 1245 600 615 600 615 600 615 600 615 600 615 600 615 600 615 600 615 1185 637 600 615 600 614 601 615 600 615 600 615 600
+# 
+name: Left
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 1183 1245 1186 637 600 615 600 615 600 615 600 615 600 615 600 1224 599 615 600 615 600 615 600 615 600 615 600 614 601 615 600 6444 101
+# 
+name: Right
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 1184 1245 600 614 601 614 601 615 600 616 599 614 601 615 1185 1245 600 615 600 615 600 615 600 615 600 615 600 615 600 615 600 6439 99
+# 
+name: Vol+
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 08 F7 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0B F4 00 00
+# 
+name: Lock
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 10 EF 00 00
+# 
+name: Zoom+
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0A F5 00 00
+# 
+name: Zoom-
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0E F1 00 00
+# 
+name: Mouse
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 1184 638 599 1223 600 615 600 615 600 615 600 615 600 614 601 615 600 615 600 614 601 614 601 615 600 616 599 614 601 615 600 615 600 6311 97
+# 
+name: Pincushion+
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 09 F6 00 00
+# 
+name: Pincushion-
+type: parsed
+protocol: NECext
+address: 4F 50 00 00
+command: 0D F2 00 00

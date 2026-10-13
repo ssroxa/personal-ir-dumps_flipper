@@ -1,0 +1,86 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 91 6E 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 97 68 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 94 6B 00 00
+# 
+name: Mode
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 90 6F 00 00
+# 
+name: Timer
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 94 6B 00 00
+# 
+name: Settings
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 92 6D 00 00
+# 
+name: Speed Hot All Gallbladder
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 93 6C 00 00
+# 
+name: Temperature+
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 96 69 00 00
+# 
+name: Speed Semi-Bile
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 95 6A 00 00
+# 
+name: Bath
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 90 6F 00 00
+# 
+name: Frequency Conversion
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 95 6A 00 00
+# 
+name: Night Mode
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 96 69 00 00
+# 
+name: +
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 94 6B 00 00
+# 
+name: -
+type: parsed
+protocol: NECext
+address: 00 CF 00 00
+command: 97 68 00 00

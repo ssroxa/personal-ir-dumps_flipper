@@ -1,0 +1,44 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: C6 00 00 00
+# 
+name: Reservation
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: C3 00 00 00
+# 
+name: Smart Mode
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: C2 00 00 00
+# 
+name: Average Insulation Temperature
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: C4 00 00 00
+# 
+name: Appointment Bath
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: C3 00 00 00
+# 
+name: Dynamic Night Power
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: C1 00 00 00
+# 
+name: Wash by Person
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: C5 00 00 00

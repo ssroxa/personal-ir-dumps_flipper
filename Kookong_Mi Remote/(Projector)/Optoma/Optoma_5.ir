@@ -1,0 +1,128 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Signal Source
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0D 00 00 00
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 01 00 00 00
+# 
+name: Mute
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0E 00 00 00
+# 
+name: Menu
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 03 00 00 00
+# 
+name: OK
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 07 00 00 00
+# 
+name: Up
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 04 00 00 00
+# 
+name: Down
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 09 00 00 00
+# 
+name: Left
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0C 00 00 00
+# 
+name: Right
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0F 00 00 00
+# 
+name: Vol+
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0F 00 00 00
+# 
+name: Vol-
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0C 00 00 00
+# 
+name: Play
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 20 00 00 00
+# 
+name: Pause
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 20 00 00 00
+# 
+name: Previous
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 06 00 00 00
+# 
+name: Next
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 08 00 00 00
+# 
+name: Info
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 02 00 00 00
+# 
+name: Aspect Ratio
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 22 00 00 00
+# 
+name: Close
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 21 00 00 00
+# 
+name: Repeat
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0B 00 00 00
+# 
+name: IPOD
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 05 00 00 00
+# 
+name: Play Random
+type: parsed
+protocol: NEC
+address: 02 00 00 00
+command: 0A 00 00 00

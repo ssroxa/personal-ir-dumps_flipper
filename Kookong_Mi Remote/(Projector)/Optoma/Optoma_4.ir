@@ -1,0 +1,170 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 17 E8 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 52 AD 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 20 DF 00 00
+# 
+name: Home
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: D5 2A 00 00
+# 
+name: OK
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 21 DE 00 00
+# 
+name: Up
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 28 D7 00 00
+# 
+name: Down
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 2C D3 00 00
+# 
+name: Left
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 2E D1 00 00
+# 
+name: Right
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 2A D5 00 00
+# 
+name: Volume
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 53 AC 00 00
+# 
+name: Lock
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: B4 4B 00 00
+# 
+name: Page Up
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: D0 2F 00 00
+# 
+name: Page Down
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: D1 2E 00 00
+# 
+name: Video
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 19 E6 00 00
+# 
+name: Auto
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 24 DB 00 00
+# 
+name: Position
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 30 CF 00 00
+# 
+name: Reset
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 22 DD 00 00
+# 
+name: RGB
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 18 E7 00 00
+# 
+name: Zoom On
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: B0 4F 00 00
+# 
+name: Zoom Off
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: B3 4C 00 00
+# 
+name: Empty
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 41 BE 00 00
+# 
+name: End
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: D6 29 00 00
+# 
+name: Search for
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 1A E5 00 00
+# 
+name: Keystone
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: B6 49 00 00
+# 
+name: Aspect
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 7A 85 00 00
+# 
+name: Custom1
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 01 FE 00 00
+# 
+name: Custom2
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: 02 FD 00 00
+# 
+name: Esc
+type: parsed
+protocol: NECext
+address: 87 45 00 00
+command: D4 2B 00 00

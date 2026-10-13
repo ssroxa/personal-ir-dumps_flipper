@@ -1,0 +1,50 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 46 00 00 00
+# 
+name: SPA
+type: raw
+frequency: 38000
+duty_cycle: 0.33000
+data: 9204 4501 578 570 580 571 579 571 580 572 579 571 579 572 578 572 578 572 580 1669 577 1670 580 1668 580 1670 578 1669 579 1670 579 1668 580 1669 579 571 579 1668 580 1668 580 570 580 1669 580 571 579 570 580 572 578 1669 580 571 579 571 578 1670 579 572 579 1669 579 1669 579 1669 579 39683 9177 2252 579
+# 
+name: TIMER
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 44 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 43 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 0D 00 00 00
+# 
+name: Sterilization
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 5A 00 00 00
+# 
+name: Bubble
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 16 00 00 00
+# 
+name: Red Light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 08 00 00 00

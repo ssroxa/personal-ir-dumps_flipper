@@ -1,0 +1,74 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+# 
+name: Timer
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 19 00 00 00
+# 
+name: UD_WIND_MODE_SWING
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1F 00 00 00
+# 
+name: Moisturizing
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0C 00 00 00
+# 
+name: Swing Mode
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 00 00 00 00
+# 
+name: Warm Up
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0E 00 00 00
+# 
+name: LR Swing
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0A 00 00 00
+# 
+name: +
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+# 
+name: -
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+# 
+name: Lantern
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0D 00 00 00

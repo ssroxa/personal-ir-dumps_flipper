@@ -1,0 +1,86 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 06 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: Timer On
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 12 00 00 00
+# 
+name: Timer Off
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1E 00 00 00
+# 
+name: Display
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 01 00 00 00
+# 
+name: Child Lock
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 05 00 00 00
+# 
+name: Full Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 08 00 00 00
+# 
+name: Anti-icing
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 0F 00 00 00
+# 
+name: Anion On
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 04 00 00 00
+# 
+name: Anion Off
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 1A 00 00 00
+# 
+name: 50% Power
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 09 00 00 00
+# 
+name: +
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 03 00 00 00
+# 
+name: -
+type: parsed
+protocol: NEC
+address: 80 00 00 00
+command: 02 00 00 00

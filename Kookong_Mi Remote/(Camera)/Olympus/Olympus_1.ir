@@ -1,0 +1,14 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Capture
+type: parsed
+protocol: NECext
+address: 86 3B 00 00
+command: 01 FE 00 00
+# 
+name: On/Off
+type: parsed
+protocol: NECext
+address: 86 3B 00 00
+command: 01 FE 00 00

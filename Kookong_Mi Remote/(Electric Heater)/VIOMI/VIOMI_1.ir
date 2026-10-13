@@ -1,0 +1,62 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6B 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 6A 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1A 00 00 00
+# 
+name: Light
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9A 00 00 00
+# 
+name: Anion
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 7A 00 00 00
+# 
+name: Shake
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 7A 00 00 00
+# 
+name: Extinguishing Screen
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 9A 00 00 00
+# 
+name: Timer+
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 3B 00 00 00
+# 
+name: Timer-
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 1B 00 00 00
+# 
+name: Stalls
+type: parsed
+protocol: NEC
+address: 00 00 00 00
+command: 2A 00 00 00

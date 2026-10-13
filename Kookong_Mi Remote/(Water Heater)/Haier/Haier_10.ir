@@ -1,0 +1,44 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 08 00 00 00
+# 
+name: Temp-
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 07 00 00 00
+# 
+name: Temp+
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 03 00 00 00
+# 
+name: Reservation
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 06 00 00 00
+# 
+name: Average Insulation Temperature
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 04 00 00 00
+# 
+name: Appointment Bath
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 06 00 00 00
+# 
+name: Variation Select
+type: parsed
+protocol: RC5
+address: 1A 00 00 00
+command: 05 00 00 00

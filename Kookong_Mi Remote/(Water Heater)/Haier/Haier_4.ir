@@ -1,0 +1,26 @@
+Filetype: IR signals file
+Version: 1
+# 
+name: Power
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: 0B 00 00 00
+# 
+name: Wash by Person
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: 19 00 00 00
+# 
+name: Warm Water
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: 1B 00 00 00
+# 
+name: Antibacterial
+type: parsed
+protocol: NEC
+address: 22 00 00 00
+command: 02 00 00 00
